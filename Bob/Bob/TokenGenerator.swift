@@ -36,37 +36,6 @@ let myHeader = Header(typ: "JWT")
 
 let myClaims = MyClaims(iss: "mystic-boy@western-dolphin-371610.iam.gserviceaccount.com", scope: "https://www.googleapis.com/auth/dialogflow", aud: "https://oauth2.googleapis.com/token", exp: exp, iat: iat)
 
-let privateString = """
-    -----BEGIN PRIVATE KEY-----
-    MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzu43JBPl3BIJD
-    Q4p8LYzoOYHBdr/Zli8BpzU6roq5cl8NXX3wCIXAIZhqD/NYMRGw0/O12NQLh7/4
-    vWTQCtOTEHTMsQUmcRdJyGRuQ249yp72WjgE8HT5lwPLMUydWuBBJtF/uOY0VsHx
-    QiROp6UYI+Db664aIUJFKrAwMGHzsfiB4tscFz3/iN/Sz4nxzvKVz5nB0HRa3tjO
-    ghE5Iq+vuVCbqJ+mlC+0SVCrpVIydCljlDQmgO8CSBOT3atXAD/a42jeGEBzikXZ
-    NBg5AOa/jA35pdtiTaTt6hQh+gd+8nYN6hyLHRbJ4rpCaxd6DDJRP4LrSffwVHPS
-    RCIf957VAgMBAAECggEADRB8QykjKAFSJakGazXVaPjrI2CqG9sUkiJxFlGjIE09
-    twc9dQHtlPRsM4NyzQ2OC2Qwsh5vdWIZ9G7x4cRzshwvXUSdyvhL+M9B65jnrcKp
-    cN9IdKV030KYoj+0Ybi+FcZIUqgiRZor0UldQcFiWQGcoee8+UXDHyt18J7Hs/Kz
-    pFsJ111dlrXj4UIDpXdhEi1mSc/vwAW/3QYVZzoWzxWu/ZPTr3AWjkk2J80+WMTm
-    buut/ENM276UINjmEXflqKQSPUJlUJty6JgXNwifkAKdNgpP9M+fCD/NGx1g7MbH
-    J8skl/o+9/oZm9dFjHaI0uZ2XCgQq4UlILUQ+XPkSQKBgQDx8LtTNsgblKmcF0N5
-    x+cP1LjswpsGEyMuDGphPks6BDQ8KyU9sLd1v75P/ipSRm6Nz/Ih+tzEufhs2KBk
-    io/QJ5a8DgTQwA7Mzuy3aEN0//pqwFyp2YUWZfNmIMbuMNqX9DwT8NfU62vJgRf1
-    BBA++gHz2M3KyJVi7GmCu32kaQKBgQC+LWDAotYJJH0GRh6IzycDi6j0pY9HgnTi
-    nmmd4UMfyROoxcDcDhV5rTCaYmmKOBORq+PoEaSdjPPwVMi/aO321sS4q+AVpcPA
-    S8YC6bXm+SCjmubguxeyNRtS/QyQ03n1a1V6Pbai7GSOmo7wViOl/Jt+kWF2wone
-    pW/p6g1pjQKBgG6+ECCg3KuzOoeWJm6hz+PxLMxCr47yR5IWYMMuLmTZ88buwNci
-    AnfFUqlu35RVZNlIq75eA5uQvGOmLJSY0Acpd9eQWyfqIVwiAzxYXzg4yzj93+xn
-    AoIkHGtM6YGxnv0a8Dz4avKs5+OOUZb3SzBoY2hofpopgieLqygKBhKxAoGAMiHM
-    K3vBaE+SFaFOU0ooQqsCMtuh1XvyS/ruZIwJIcvjvs3CdT/RMW4SLeBbafA2WGQz
-    g+2Cs3WAqI3xDWQftr4OxY+pVouH+pz+6a2qIeTyUa53xi4LpRKSzWGfel4E/Ej7
-    E2pJRtGCAIWFwJ00cIESjF7Ojnvh1CtQQR1Nw9ECgYEAnBinRZCKzExjCS3pw46Q
-    89VxFFOYfpcJy05bxwG64XUX9MW2nS+pSh4c7vb45jR/kTOPlrSs6/cyAuHSoiNs
-    7Om/wLgkgcunba/jisaXtL6qTnBzaeDX5JbrPROnhKrNN1lzx95ACm6tKfBIQ+ib
-    CaOUKM3ODFmYYAXmPfAI9r8=
-    -----END PRIVATE KEY-----
-    """
-
 let publicString = """
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs7uNyQT5dwSCQ0OKfC2M
